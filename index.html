@@ -21,8 +21,8 @@
         }
 
         @font-face {
-            font-family: 'AdikRegular';
-            src: url('Adik-Regular.ttf') format('truetype');
+            font-family: 'GaliRegular';
+            src: url('Gali150-Regular.ttf') format('truetype'), url('Gali150-Regular.otf') format('otf');
         }
 
         @font-face {
@@ -667,10 +667,11 @@
             window.onload = function () {
             function randomFontGenerate(){
                 const fonts = [
-//                     'GveretLevin',
-                    'DanaYad',
-//                     'kamRegular',
-//                     'MichaelRegular',
+                    'GaliRegular',
+                    // 'GveretLevin',
+                    // 'DanaYad',
+                    // 'kamRegular',
+                    // 'MichaelRegular',
                     ];
                 const index = Math.floor((Math.random() * fonts.length));
                 return  fonts[index];
